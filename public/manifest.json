@@ -1,0 +1,173 @@
+{
+  "name": "IVY Fashion Assistant",
+  "short_name": "IVY",
+  "description": "Trợ lý thời trang IVY - Gợi ý sản phẩm, outfit và mua sắm thông minh",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "locale": "vi-VN",
+  "default_locale": "vi",
+  "icons": {
+    "16": "/icons/icon-16.png",
+    "32": "/icons/icon-32.png",
+    "48": "/icons/icon-48.png",
+    "128": "/icons/icon-128.png"
+  },
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1a1a1a",
+  "background_color": "#ffffff",
+  "categories": ["shopping", "fashion", "lifestyle"],
+  "intents": {
+    "findProducts": {
+      "keywords": [
+        "tìm sản phẩm",
+        "tìm quần áo",
+        "áo sơ mi",
+        "váy công sở",
+        "quần âu",
+        "đầm dự tiệc",
+        "áo khoác",
+        "blazer",
+        "tìm váy",
+        "tìm áo",
+        "sản phẩm IVY",
+        "thời trang công sở",
+        "đồ đi làm",
+        "quần jean",
+        "áo thun"
+      ],
+      "phrases": [
+        "Tìm cho tôi {category}",
+        "Gợi ý {category} màu {color}",
+        "Tôi cần tìm {category} phong cách {style}",
+        "Có {category} nào size {size} không?",
+        "Cho tôi xem {category}",
+        "Tìm giúp tôi {category} để {occasion}"
+      ]
+    },
+    "filterProducts": {
+      "keywords": [
+        "lọc sản phẩm",
+        "filter",
+        "tìm theo giá",
+        "màu sắc",
+        "size",
+        "phong cách",
+        "tìm kiếm nâng cao",
+        "tìm theo khoảng giá",
+        "trong khoảng",
+        "từ ... đến ...",
+        "dưới 1 triệu",
+        "trên 500k"
+      ],
+      "phrases": [
+        "Lọc sản phẩm màu {color}",
+        "Tìm {category} giá từ {priceMin} đến {priceMax}",
+        "Sản phẩm {style} size {size}",
+        "Lọc theo {style}",
+        "Tìm đồ màu {color} size {size}",
+        "Có gì dưới {priceMax}đ?",
+        "Sản phẩm {style} trong khoảng giá {priceMin}-{priceMax}"
+      ]
+    },
+    "compareProducts": {
+      "keywords": [
+        "so sánh",
+        "compare",
+        "khác biệt",
+        "chọn giữa",
+        "nên mua cái nào",
+        "khác nhau như thế nào",
+        "phân biệt",
+        "giống nhau",
+        "đắt hơn",
+        "rẻ hơn"
+      ],
+      "phrases": [
+        "So sánh 2 sản phẩm này",
+        "Khác biệt giữa {product1} và {product2}",
+        "Nên chọn cái nào?",
+        "So sánh giá giữa {product1} và {product2}",
+        "Chọn giữa {product1} và {product2}",
+        "Phân biệt {product1} và {product2}"
+      ]
+    },
+    "outfitRecommend": {
+      "keywords": [
+        "gợi ý outfit",
+        "phối đồ",
+        "mix đồ",
+        "set đồ",
+        "cả bộ",
+        "outfit",
+        "trang phục hoàn chỉnh",
+        "đồ đi làm",
+        "đồ dạo phố",
+        "đồ hẹn hò",
+        "đồ đi chơi",
+        "outfit công sở",
+        "outfit dự tiệc",
+        "cách phối",
+        "mặc gì"
+      ],
+      "phrases": [
+        "Gợi ý outfit {style}",
+        "Phối đồ cho {occasion}",
+        "Mặc gì để {occasion}?",
+        "Set đồ {style}",
+        "Outfit hoàn chỉnh {style}",
+        "Mix đồ công sở",
+        "Gợi ý cả bộ {style}",
+        "Phối đồ với {product}",
+        "Outfit đi {occasion}",
+        "Trang phục cho {occasion}"
+      ]
+    }
+  },
+  "contextualInfo": {
+    "brand": "IVY MODA",
+    "domain": "ivymoda.com",
+    "supportedLanguages": ["vi-VN", "vi"],
+    "regions": ["VN"],
+    "productCategories": [
+      "áo sơ mi",
+      "váy",
+      "quần",
+      "đầm",
+      "áo khoác",
+      "áo thun",
+      "blazer",
+      "quần jean"
+    ],
+    "styles": [
+      "công sở",
+      "tối giản",
+      "năng động",
+      "nữ tính",
+      "thanh lịch",
+      "cổ điển",
+      "hiện đại"
+    ],
+    "occasions": [
+      "đi làm",
+      "dạo phố",
+      "hẹn hò",
+      "dự tiệc",
+      "du lịch",
+      "cafe",
+      "họp mặt"
+    ],
+    "priceRange": {
+      "min": 400000,
+      "max": 2000000,
+      "currency": "VND"
+    }
+  },
+  "permissions": [
+    "openExternal"
+  ],
+  "author": {
+    "name": "IVY MODA Vietnam",
+    "url": "https://ivymoda.com"
+  }
+}
