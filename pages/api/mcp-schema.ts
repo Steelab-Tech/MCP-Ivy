@@ -9,7 +9,7 @@ export default function handler(
     info: {
       title: "IVY Fashion MCP API",
       description: "Model Context Protocol API for IVY Fashion ChatGPT Integration",
-      version: "1.0.0"
+      version: "1.0.1"
     },
     servers: [
       {
